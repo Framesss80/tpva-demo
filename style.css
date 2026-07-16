@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 1px 0 rgba(0,0,0,0.05);
 }
 
-.navbar.scrolled .logo, .navbar.scrolled .nav-links a {
+.navbar.scrolled .logo, .navbar.scrolled .nav-links a:not(.btn) {
     color: var(--color-black);
 }
 
